@@ -1,40 +1,41 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@ignite-ui-danielcreis/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build && touch ./storybook-static/.nojekyll",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@storybook/addon-essentials": "^7.4.1",
-    "@storybook/addon-interactions": "^7.4.1",
-    "@storybook/addon-links": "^7.4.1",
-    "@storybook/addon-onboarding": "^1.0.8",
-    "@storybook/blocks": "^7.4.1",
-    "@storybook/react": "^7.4.1",
-    "@storybook/react-vite": "^7.4.1",
+    "@storybook/addon-a11y": "^7.0.18",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-interactions": "^7.0.18",
+    "@storybook/addon-links": "^7.0.18",
+    "@storybook/blocks": "^7.0.18",
+    "@storybook/react": "^7.0.18",
+    "@storybook/react-vite": "^7.0.18",
     "@storybook/storybook-deployer": "^2.8.16",
-    "@storybook/testing-library": "^0.2.0",
-    "@vitejs/plugin-react": "^4.0.4",
+    "@storybook/testing-library": "^0.1.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint-plugin-storybook": "^0.6.12",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "storybook": "^7.4.1",
-    "vite": "^4.4.9"
+    "storybook": "^7.0.18",
+    "vite": "^4.3.8"
   },
   "dependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@storybook/addon-a11y": "^7.4.6",
-    "polished": "^4.2.2"
+    "@ignite-ui-danielcreis/eslint-config": "*",
+    "@ignite-ui-danielcreis/react": "*",
+    "@ignite-ui-danielcreis/tokens": "*",
+    "@ignite-ui-danielcreis/ts-config": "*",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
