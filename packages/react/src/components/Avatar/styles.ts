@@ -1,11 +1,11 @@
-import { styled } from "../../styles";
+import { styled } from '../../styles'
 import * as Avatar from '@radix-ui/react-avatar'
 
 export const AvatarContainer = styled(Avatar.Root, {
   borderRadius: '$full',
   display: 'inline-block',
-  width: '$12',
-  height: '$12',
+  width: '$16',
+  height: '$16',
   overflow: 'hidden',
 })
 
@@ -13,8 +13,7 @@ export const AvatarImage = styled(Avatar.Image, {
   width: '100%',
   height: '100%',
   objectFit: 'cover',
-  borderRadius: 'inherit'
-
+  borderRadius: 'inherit',
 })
 
 export const AvatarFallback = styled(Avatar.Fallback, {
@@ -28,7 +27,6 @@ export const AvatarFallback = styled(Avatar.Fallback, {
 
   svg: {
     width: '$6',
-    height: '$6'
-  }
-  
+    height: '$6',
+  },
 })
